@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgba(245, 245, 245, 0.557)
+}
+
+.container-head {
+    width: 100%;
+    color: white;
+    height: 15vh;
+    opacity: 0.9;
+}
+
+.container-upper-head {
+    height: 3.5vh;
+    background-color: #fac031;
+}
+
+.container-lower-head {
+    display: flex;
+    background-color: white;
+    color: #fac031;
+    height: 11vh;
+    border-bottom: 0.05px solid rgba(0, 0, 0, 0.105);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.container-lower-head-fill {
+    display: flex;
+    margin: auto 0;
+    margin-left: 100px;
+}
+
+.container-lower-head-fill p {
+    font-size: 30px;
+}
+
+
+.container-main-1 {
+    position: relative;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150vh;
+    min-height: 30vh;
+    border: 0.05px solid rgba(0, 0, 0, 0.105);
+    border-bottom: none;
+}
+
+.listProduct {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-product {
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.middle-product{
+    display: flex;
+    margin-left: 80px;
+}
+
+.middle-product .m2 {
+    margin-left: 110px;
+}
+
+.right-product {
+    position: relative;
+    right: 26.5px;
+    margin-left: 80px;
+}
+
+.left-product-py {
+    display: flex;
+    margin-left: 20px;
+}
+
+.left-product-py {
+    display: flex;
+}
+
+.left-product-buttom-py {
+    position: relative;
+    right: 60px;
+}
+
+.left-product-buttom-py {
+    align-items: flex-start;
+}
+
+.left-product-up-py {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-product-up-py img{
+    position: relative;
+    left: 45px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: 2px solid #fac031;
+    padding: 7.5px 5px;
+    align-items: center;
+    bottom: 15px;
+} 
+
+.middle-product-py {
+    display: flex;
+    margin-left: 100px;
+}
+
+.middle-product-py .m1-py {
+    position: relative;
+    right: 40px;
+    text-align: start;
+}
+
+.middle-product-py .m2-py {
+    margin-left: 100px;
+    padding-left: 50px;
+    margin-right: 60px; 
+    position: relative;
+    right: 40px;
+    text-align: start;
+}
+
+.right-product-py {
+    position: relative;
+    right: 45px;
+    text-align: end;
+    margin-left: 100px;
+}
+
+.bottom-listproduct {   
+    width: 100%; 
+}
+
+.bottom-listproduct-child {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 0.05px solid rgba(0, 0, 0, 0.105);
+}
+
+.listProduct p {
+    text-align: left;
+}
+
+.container-main-2 {
+    position: relative;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 150vh;
+    height: 10vh;
+    border: 0.05px solid rgba(0, 0, 0, 0.105);
+    border-bottom: none;
+}
+
+.container-main-2-child {
+    display: flex;
+    margin: 4vh 97.5px 4vh 97.5px;
+    justify-content: space-between;
+}
+
+.container-main-2-child .left {
+    font-size: 18px;
+}
+
+.container-main-2-child .right {
+    display: flex;
+    font-size: 18px;
+    color: #fac031;
+}
+
+.container-payment-method {
+    background-color: white;
+    width: 150vh;
+    min-height: 50vh;
+    border: 0.05px solid rgba(0, 0, 0, 0.105);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.head-container {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 0.05px solid rgba(0, 0, 0, 0.105);
+}
+
+.head-container-child {
+    display: flex;
+    margin: 50px 97.5px 50px 97.5px;
+}
+
+.head-container-left {
+    display: flex;
+    font-size: 20px;
+}
+
+.head-container .garis-lurus {
+    margin-left: 65px;
+}
+
+.head-container-right {
+    display: flex;
+    margin-left: 65px;
+}
+
+.container-method {
+    margin: 0 80px 10px 0;
+}
+.container-method button{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.674);
+    border: 0.05px solid rgba(0, 0, 0, 0.674);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    padding: 8.5px;
+    background-color: transparent;
+}
+
+
+
+
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 97.5px 15px 97.5px;
+    min-height: 15px;
+}
+
+.middle-container-child-tf {
+    display: none;
+    flex-direction: column;
+}
+
+.middle-container-child-tf button {
+    background-color: transparent;
+    border: none;
+    text-align: start;
+    margin: 40px 0;
+}
+
+.middle-container-child-tf img {
+    position: relative;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0 20px;
+}
+
+.middle-container-child-EW {
+    display: none;
+    flex-direction: column;
+}
+
+.middle-container-child-EW button{
+    background-color: transparent;
+    border: none;
+    text-align: start;
+    margin: 40px 0;
+}
+
+.middle-container-child-EW img{
+    position: relative;
+    top:  15px;
+    width: 60px;
+    height: 60px;
+    margin: 0 15px 0 20px;
+}
+
+
+
+
+
+.bottom-container {
+    background-color: rgba(245, 245, 245, 0.936);
+    margin-bottom: 20px;
+}
+
+.bottom-container-child {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 97.5px 25px 97.5px;
+}
+
+.bottom-container-fill {
+    margin: 20px 0;
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+}
+
+.tranquality {
+    position: relative;
+    left: 70vh;
+}
+
+.bottom-container-fill-end {
+    margin: 25px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-container-fill-end .amount {
+    position: relative;
+    bottom: 10px;
+    font-size: 25px;
+    color:  #fac031;
+}
+
+
+
+
+
+.container-pay {
+    margin: 0 97.5px 25px 97.5px;
+}
+
+.pay-button {  
+    display: flex;
+    justify-content: end;
+}
+
+.pay-button button {
+    color: white;
+    display: flex;
+    text-align: end;
+    font-size: 18px;
+    padding: 8px 42px;
+    background-color: #fac031;
+    border-radius: 2.5px;
+    border: none;
+}
